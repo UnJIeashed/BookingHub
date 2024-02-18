@@ -1,1 +1,3 @@
-Pet-project about Booking
+#BookingHub
+
+Pet-project on FastAPI - BookingHub.
