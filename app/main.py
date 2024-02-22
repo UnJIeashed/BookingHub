@@ -6,9 +6,11 @@ from pydantic import BaseModel
 import uvicorn
 
 from app.bookings.router import router as router_bookings
+from app.users.router import router as router_auth
 
 app = FastAPI()
 
+app.include_router(router_auth)
 app.include_router(router_bookings)
 
 
